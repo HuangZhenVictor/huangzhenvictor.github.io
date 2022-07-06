@@ -16,23 +16,25 @@
   <meta name="author" content="黄振">
   <meta name="keywords" content="">
   
-    <meta name="description" content="创建本小破站的初衷">
+    <meta name="description" content="看网上好像没有有关EMAN2的详细安装教程，于是摸鱼水了一篇">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello Blog!">
-<meta property="og:url" content="http://huangzhenvictor.github.io/2022/07/04/Hello-Blog/index.html">
+<meta property="og:title" content="EMAN2安装教程">
+<meta property="og:url" content="http://huangzhenvictor.github.io/2022/07/06/EMAN2%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/index.html">
 <meta property="og:site_name" content="HuangZhen&#39;s Blog">
-<meta property="og:description" content="创建本小破站的初衷">
+<meta property="og:description" content="看网上好像没有有关EMAN2的详细安装教程，于是摸鱼水了一篇">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://imgpp.com/s1/2022/07/05/hello-blog.png">
-<meta property="article:published_time" content="2022-07-04T15:31:52.000Z">
-<meta property="article:modified_time" content="2022-07-05T05:41:24.350Z">
+<meta property="og:image" content="http://huangzhenvictor.github.io/img/EMAN2.png">
+<meta property="article:published_time" content="2022-07-06T02:49:24.000Z">
+<meta property="article:modified_time" content="2022-07-06T03:08:16.693Z">
 <meta property="article:author" content="黄振">
+<meta property="article:tag" content="cryo-ET">
+<meta property="article:tag" content="EMAN2">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://imgpp.com/s1/2022/07/05/hello-blog.png">
+<meta name="twitter:image" content="http://huangzhenvictor.github.io/img/EMAN2.png">
   
   
   
-  <title>Hello Blog! - HuangZhen&#39;s Blog</title>
+  <title>EMAN2安装教程 - HuangZhen&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -191,13 +193,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('https://imgpp.com/s1/2022/07/05/hello-blog.png') no-repeat center center; background-size: cover;">
+     style="background: url('/img/cryoet.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello Blog!"></span>
+            <span id="subtitle" data-typed-text="EMAN2安装教程"></span>
           
         </div>
 
@@ -208,8 +210,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-07-04 23:31" pubdate>
-          2022年7月4日 晚上
+        <time datetime="2022-07-06 10:49" pubdate>
+          2022年7月6日 上午
         </time>
       </span>
     
@@ -220,7 +222,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.6k 字
+          1.1k 字
         
       </span>
     
@@ -231,7 +233,7 @@
         
         
         
-          14 分钟
+          10 分钟
         
       </span>
     
@@ -279,25 +281,59 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Hello Blog!</h1>
+            <h1 style="display: none">EMAN2安装教程</h1>
             
             
               <div class="markdown-body">
                 
-                <p>  突然心血来潮，想要建一个属于自己的个人网站&#x2F;博客，于是花了点时间使用Github简单建立了一个个人博客。相信来这个小破站的人都会问，为什么你还要写博客？这玩意不是已经过时了吗？不是有那么多社交平台&#x2F;记笔记的平台吗？</p>
-<h2 id="选择思考和折腾"><a href="#选择思考和折腾" class="headerlink" title="选择思考和折腾"></a>选择思考和折腾</h2><p>  互联网发展至今，已经有非常多非常成熟的、兼具记录和社交功能的软件，具体例子不再列举，大家都十分熟悉。但是有时我总觉得自己被互联网大潮裹挟了，感觉自己缺乏一个地方，<strong>这个地方装着的不是生活的随记、不是各式各样的「网络情绪垃圾」、不是零碎而又毫无条理的感想；这个地方也不是自我形象的“美颜滤镜”，没有相互讨好、吹嘘、装x。</strong>网络上这种清静的、能够最真实展现自己的地方少之又少；而我，想到了搭建一个属于自己的网站，以这样一种方式与最真实的自己对话。</p>
-<p>  恰好，我又是属于那种比较喜欢折腾的人，经常「胡思乱想」一些新鲜的东西，然后又很喜欢自己研究捣鼓，<del>比如像天文摄影这样的爱好</del>。不得不承认自己真有点强迫症：为了追求排版，大一写综述论文的时候还花半天学会LaTEX后再排版；明明有ePSF的cilent成品摆在那里，我就自己花两三天用Py重新写个ePSF；调试设备大半年，就想把导星RMS降到至少0.6以下，天天找某顿理论。。<del>不过这也说明cryo-ET挺适合我的。</del>反正经过半天折腾，就又弄了个简陋的个人网站。</p>
-<p>  其实也还有其他的原因，比如学习或者复习过程中很喜欢通过手写或者打字来学习，这对我来说是个积累知识的很好的方法；另外我可以摆脱那些社交媒体、问答社区的限制，按照自己的喜好DIY自己的网站，写自己想写的内容；还可以摆脱主题的限制；把自己想讲的东西组织好语言后再表述出来，而不是一昧宣泄情绪或盲目跟风；还可以更好更方便地记录成长，不用过多在意他人的目光，重新全面地认识自己。</p>
-<h2 id="我将写什么"><a href="#我将写什么" class="headerlink" title="我将写什么"></a>我将写什么</h2><p>我认为个人博客网站除了自定义外，一个比较重要的特点是社交功能被很大程度上弱化了。因此它上面的内容可能不会那么「浮躁」，内容也可能会带有更强的目的性、会更加「务实」、追求「质量」。我只管用最朴素、真实的语言记录自己学习、思考、总结的过程，或者分享自己的所见所闻、所思所想（以一种更加「系统性的」方式）。</p>
-<p>我可能会写一些比较个人的、有关于我的人生观、价值观的东西，通过这些来重新认识自己，看到真实的自己；</p>
-<p>我可能会将一些学习、科研过程中得到的经验与感想总结在这上面，我可以做到「只问是非，不计利害」，并由此养成自己积累知识的习惯，提高持续学习、终身学习的动力。我也希望让真正有需求的人能够搜索到、并从我这些总结中得到什么。</p>
-<p>我可能也会用这种方式，记录自己的成长过程，就像画人生地图一样，到一个选择的节点就mark一下，也不会受到社交平台的限制。</p>
-<p>可能还有很多。不过我暂时就想到这些。</p>
-<h2 id="一步一个脚印"><a href="#一步一个脚印" class="headerlink" title="一步一个脚印"></a>一步一个脚印</h2><p>这个网站，就是一个人在做属于自己的事情。借此过程，我也希望能够培养我持续做一件事情的能力，我不希望它三分钟热度。</p>
-<p>当然，这个网站还正在建造的初步阶段，需要随着文章的积累、学习生活经验的积累，才能不断完善网站。这其实也是自我完善、自我提升的过程，我希望我能够坚持下去，一步一个脚印。<del>比如，我现在还在用Terminal写。</del></p>
-<h2 id="一面更加立体的镜子"><a href="#一面更加立体的镜子" class="headerlink" title="一面更加立体的镜子"></a>一面更加立体的镜子</h2><p>无论是我们平常使用的社交软件，还是那些问答社区，无论是那些「空间」还是「圈子」，其实都无法展现全面的自己的形象，都只能看到与该特定平台中的特定人群所偏好的角度。每个平台展现的个人网络形象可能都是不一样的，只能反映一个侧面，这个侧面是为这个平台的特定人群所偏好的。因此如果需要建构一个相对而言比较完整的个人形象，不受社交媒体限制的个人网站说不定是一个很好的选择。</p>
-<p>这在某种程度上也体现出了网络世界的「身份识别」吧，或者也可以认为是一种「简历」。希望我也能够通过这个网站全面审视自己，不断超越之前的自己。</p>
-<p>暂时就这些吧。随便写了些建站的小感想。</p>
+                <p>我用的系统是MacOS，所以我就简单写一下安装教程。</p>
+<p>官网的安装教程请点击<a target="_blank" rel="noopener" href="https://blake.bcm.edu/emanwiki/EMAN2/Install/BinaryInstallAnaconda/2.91">此处</a></p>
+<h2 id="1、下载-sh安装文件"><a href="#1、下载-sh安装文件" class="headerlink" title="1、下载.sh安装文件"></a>1、下载.sh安装文件</h2><p>在官网下载<a target="_blank" rel="noopener" href="https://cryoem.bcm.edu/cryoem/downloads/view_eman2_version/32">EMAN2.91</a></p>
+<h2 id="2、准备一个安装路径"><a href="#2、准备一个安装路径" class="headerlink" title="2、准备一个安装路径"></a>2、准备一个安装路径</h2><p>比如我在<code>/Users/hzvictor/</code>下新建一个文件夹，命名为<code>EMAN2</code>。</p>
+<p>那么我接下来安装的路径就是<code>/Users/hzvictor/EMAN2</code></p>
+<h2 id="3、获取系统root权限"><a href="#3、获取系统root权限" class="headerlink" title="3、获取系统root权限"></a>3、获取系统root权限</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">sudo su<br></code></pre></td></tr></table></figure>
+
+
+
+<h2 id="4、安装EMAN2"><a href="#4、安装EMAN2" class="headerlink" title="4、安装EMAN2"></a>4、安装EMAN2</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">bash &lt;path-to-EMAN2-installer&gt;<br></code></pre></td></tr></table></figure>
+
+<p>比如我就是：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">bash /Users/hzvictor/EMAN2/eman2.91_sphire1.4_sparx_huge.MacOS.sh<br></code></pre></td></tr></table></figure>
+
+<p>然后根据提示安装。</p>
+<p>如果更新或覆盖安装，在其后加<code>-u</code></p>
+<p><strong>注意！！</strong></p>
+<p>在询问安装路径时将安装路径改为<strong>自己的安装路径</strong>，比如<code>/Users/hzvictor/EMAN2</code></p>
+<p>如果不改的话默认就在<code>/var/root</code>里面了，能不能正常启动我不好说。我反正遇到了困难。</p>
+<p>最后使用命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">more ~/.bash_profile<br></code></pre></td></tr></table></figure>
+
+<p>检查bashrc中是否有：</p>
+<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs jboss-cli"><span class="hljs-comment"># &gt;&gt;&gt; conda initialize &gt;&gt;&gt;</span><br><span class="hljs-comment"># !! Contents within this block are managed by &#x27;conda init&#x27; !!</span><br><span class="hljs-string">...</span><br><span class="hljs-string">...</span><br><span class="hljs-string">...</span><br><span class="hljs-keyword">unset</span> __conda_setup<br><span class="hljs-comment"># &lt;&lt;&lt; conda initialize &lt;&lt;&lt;</span><br></code></pre></td></tr></table></figure>
+
+<p>有的话，应该正常安装完成。</p>
+<h2 id="5、配置环境"><a href="#5、配置环境" class="headerlink" title="5、配置环境"></a>5、配置环境</h2><p>修改bashrc以配置环境，关于bashrc的具体内容就不写了，就是个用户的环境变量。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">vim ~/.bashrc<br></code></pre></td></tr></table></figure>
+
+<p>在末尾添加：</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">export PATH=<span class="hljs-regexp">/Users/</span>hzvictor<span class="hljs-regexp">/EMAN2/</span>bin:<span class="hljs-variable">$PATH</span><br></code></pre></td></tr></table></figure>
+
+<p>然后保存并退出。</p>
+<p>重新打开bashrc启用配置：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span> ~/.bashrc<br></code></pre></td></tr></table></figure>
+
+
+
+<h2 id="6、启动环境并测试"><a href="#6、启动环境并测试" class="headerlink" title="6、启动环境并测试"></a>6、启动环境并测试</h2><p>EMAN2的运行需要在刚刚创建的特定环境中，如果不在环境中的话，容易报错或者影响其他进程的正常运行。</p>
+<p>每当需要打开EMAN2时，需要用命令启动环境：</p>
+<figure class="highlight gradle"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs gradle"><span class="hljs-keyword">source</span> <span class="hljs-regexp">/.../</span>...<span class="hljs-regexp">/EMAN2/</span>bin/activate<br></code></pre></td></tr></table></figure>
+
+<p>启动环境后，会看到增加了<code>(base)</code>。这就说明已经成功创建环境，在EMAN2的环境中了。</p>
+<p>依次测试：</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs vim">e2version.<span class="hljs-keyword">py</span><br>e2speedtest.<span class="hljs-keyword">py</span><br>e2display.<span class="hljs-keyword">py</span><br>e2proc2d.<span class="hljs-keyword">py</span> :<span class="hljs-number">64</span>:<span class="hljs-number">64</span>:<span class="hljs-number">1</span> test.hdf --process mask.sharp:outer_radius=<span class="hljs-number">24</span><br>e2display.<span class="hljs-keyword">py</span> test.hdf<br></code></pre></td></tr></table></figure>
+
+<p>都没有报错那么就说明安装成功。</p>
+<p>如果有其他问题，查看<a target="_blank" rel="noopener" href="https://blake.bcm.edu/emanwiki/EMAN2/Install/BinaryInstallAnaconda/2.91">官网安装教程</a>，或在<a target="_blank" rel="noopener" href="https://github.com/cryoem/eman2">EMAN2的Github</a>中提出issue，或者自己琢磨一下，问问导师。<del>（问我我也不一定会啊）</del></p>
 
                 
               </div>
@@ -306,6 +342,36 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E7%A7%91%E7%A0%94%E6%91%B8%E9%B1%BC/" class="category-chain-item">科研摸鱼</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/cryo-ET/">#cryo-ET</a>
+      
+        <a href="/tags/EMAN2/">#EMAN2</a>
+      
+    </div>
   
 </div>
 
@@ -315,8 +381,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello Blog!</div>
-      <div>http://huangzhenvictor.github.io/2022/07/04/Hello-Blog/</div>
+      <div>EMAN2安装教程</div>
+      <div>http://huangzhenvictor.github.io/2022/07/06/EMAN2安装教程/</div>
     </div>
     <div class="license-meta">
       
@@ -328,7 +394,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年7月4日</div>
+          <div>2022年7月6日</div>
         </div>
       
       
@@ -370,15 +436,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/07/06/EMAN2%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/" title="EMAN2安装教程">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">EMAN2安装教程</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2022/07/04/Hello-Blog/" title="Hello Blog!">
+                        <span class="hidden-mobile">Hello Blog!</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
