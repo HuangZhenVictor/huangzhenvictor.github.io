@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/icon.png">
-  <link rel="icon" href="/img/icon.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://huangzhenblog.oss-cn-hangzhou.aliyuncs.com/img/202208012151727.png">
+  <link rel="icon" href="https://huangzhenblog.oss-cn-hangzhou.aliyuncs.com/img/202208012151727.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
@@ -23,14 +23,14 @@
 <meta property="og:site_name" content="HuangZhen&#39;s Blog">
 <meta property="og:description" content="看网上好像没有有关EMAN2的详细安装教程，于是摸鱼水了一篇">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://huangzhenvictor.github.io/img/EMAN2.png">
+<meta property="og:image" content="https://huangzhenblog.oss-cn-hangzhou.aliyuncs.com/img/202208012151925.png">
 <meta property="article:published_time" content="2022-07-06T02:49:24.000Z">
-<meta property="article:modified_time" content="2022-07-06T03:08:16.693Z">
+<meta property="article:modified_time" content="2022-08-01T14:00:41.662Z">
 <meta property="article:author" content="黄振">
 <meta property="article:tag" content="cryo-ET">
 <meta property="article:tag" content="EMAN2">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://huangzhenvictor.github.io/img/EMAN2.png">
+<meta name="twitter:image" content="https://huangzhenblog.oss-cn-hangzhou.aliyuncs.com/img/202208012151925.png">
   
   
   
@@ -72,7 +72,7 @@
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
     Fluid.ctx = Object.assign({}, Fluid.ctx)
-    var CONFIG = {"hostname":"huangzhenvictor.github.io","root":"/","version":"1.9.2","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading1.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"huangzhenvictor.github.io","root":"/","version":"1.9.2","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"https://huangzhenblog.oss-cn-hangzhou.aliyuncs.com/img/202208012151792.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
 
     if (CONFIG.web_analytics.follow_dnt) {
       var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
@@ -193,7 +193,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/cryoet.png') no-repeat center center; background-size: cover;">
+     style="background: url('https://huangzhenblog.oss-cn-hangzhou.aliyuncs.com/img/202208012151007.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -291,14 +291,14 @@
 <h2 id="1、下载-sh安装文件"><a href="#1、下载-sh安装文件" class="headerlink" title="1、下载.sh安装文件"></a>1、下载.sh安装文件</h2><p>在官网下载<a target="_blank" rel="noopener" href="https://cryoem.bcm.edu/cryoem/downloads/view_eman2_version/32">EMAN2.91</a></p>
 <h2 id="2、准备一个安装路径"><a href="#2、准备一个安装路径" class="headerlink" title="2、准备一个安装路径"></a>2、准备一个安装路径</h2><p>比如我在<code>/Users/hzvictor/</code>下新建一个文件夹，命名为<code>EMAN2</code>。</p>
 <p>那么我接下来安装的路径就是<code>/Users/hzvictor/EMAN2</code></p>
-<h2 id="3、获取系统root权限"><a href="#3、获取系统root权限" class="headerlink" title="3、获取系统root权限"></a>3、获取系统root权限</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">sudo su<br></code></pre></td></tr></table></figure>
+<h2 id="3、获取系统root权限"><a href="#3、获取系统root权限" class="headerlink" title="3、获取系统root权限"></a>3、获取系统root权限</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs ebnf"><span class="hljs-attribute">sudo su</span><br></code></pre></td></tr></table></figure>
 
 
 
-<h2 id="4、安装EMAN2"><a href="#4、安装EMAN2" class="headerlink" title="4、安装EMAN2"></a>4、安装EMAN2</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">bash &lt;path-to-EMAN2-installer&gt;<br></code></pre></td></tr></table></figure>
+<h2 id="4、安装EMAN2"><a href="#4、安装EMAN2" class="headerlink" title="4、安装EMAN2"></a>4、安装EMAN2</h2><figure class="highlight pgsql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs pgsql">bash &lt;<span class="hljs-type">path</span>-<span class="hljs-keyword">to</span>-EMAN2-installer&gt;<br></code></pre></td></tr></table></figure>
 
 <p>比如我就是：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">bash /Users/hzvictor/EMAN2/eman2.91_sphire1.4_sparx_huge.MacOS.sh<br></code></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">bash <span class="hljs-regexp">/Users/</span>hzvictor<span class="hljs-regexp">/EMAN2/</span>eman2.<span class="hljs-number">91</span>_sphire1.<span class="hljs-number">4</span>_sparx_huge.MacOS.sh<br></code></pre></td></tr></table></figure>
 
 <p>然后根据提示安装。</p>
 <p>如果更新或覆盖安装，在其后加<code>-u</code></p>
@@ -313,7 +313,7 @@
 
 <p>有的话，应该正常安装完成。</p>
 <h2 id="5、配置环境"><a href="#5、配置环境" class="headerlink" title="5、配置环境"></a>5、配置环境</h2><p>修改bashrc以配置环境，关于bashrc的具体内容就不写了，就是个用户的环境变量。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs linux">vim ~/.bashrc<br></code></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">vim ~/.bashrc<br></code></pre></td></tr></table></figure>
 
 <p>在末尾添加：</p>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs awk">export PATH=<span class="hljs-regexp">/Users/</span>hzvictor<span class="hljs-regexp">/EMAN2/</span>bin:<span class="hljs-variable">$PATH</span><br></code></pre></td></tr></table></figure>
